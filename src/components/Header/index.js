@@ -25,34 +25,32 @@ const Header = () => (
         </button>
       }
     >
-      <div className="popup-container">
-        {close => (
-          <>
-            <button
-              type="button"
-              className="close-button"
-              onClick={() => close()}
-              testid="closeButton"
-            >
-              <IoMdClose className="home-icon" />
-            </button>
-          </>
-        )}
-        <ul className="home-icon-container">
-          <li>
-            <AiFillHome className="home-icon" />
-            <Link to="/" className="heading">
-              Home
-            </Link>
-          </li>
-          <li>
-            <BsInfoCircleFill className="home-icon" />
-            <Link to="/about" className="heading">
-              About
-            </Link>
-          </li>
-        </ul>
-      </div>
+      {close => (
+        <div className="popup-container">
+          <button
+            type="button"
+            className="close-button"
+            onClick={() => close()}
+            testid="closeButton"
+          >
+            <IoMdClose className="home-icon" />
+          </button>
+          <ul className="home-icon-container">
+            <li>
+              <AiFillHome className="home-icon" />
+              <Link to="/" className="heading">
+                Home
+              </Link>
+            </li>
+            <li>
+              <BsInfoCircleFill className="home-icon" />
+              <Link to="/about" className="heading">
+                About
+              </Link>
+            </li>
+          </ul>
+        </div>
+      )}
     </Popup>
   </div>
 )

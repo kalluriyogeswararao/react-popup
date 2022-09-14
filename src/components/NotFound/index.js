@@ -13,8 +13,8 @@ const NotFound = () => (
       />
       <h1 className="lost">Lost Your Way?</h1>
       <p className="para">
-        Sorry, we cannot find that page. You ll find lots to explore on the home
-        page.
+        Sorry, we cannot find that page. You will find lots to explore on the
+        home page.
       </p>
     </div>
   </div>
