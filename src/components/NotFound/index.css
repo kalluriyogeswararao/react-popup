@@ -1,0 +1,24 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.not-found {
+  width: 500px;
+  padding-bottom: 0;
+}
+
+.lost {
+  font-size: 35px;
+  color: #616e7c;
+  font-family: 'roboto';
+  margin-bottom: 15px;
+}
+
+.para {
+  font-size: 20px;
+  color: #616e7c;
+  font-family: 'roboto';
+}
